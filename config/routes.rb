@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'api/applications#index'
   namespace :api do
     resources :applications, only: [:index, :destroy, :create, :show, :new, :update]
     get '/recordBySelectedFields/:id', to: 'applications#recordBySelectedFields' , as: :recordBySelectedFields
