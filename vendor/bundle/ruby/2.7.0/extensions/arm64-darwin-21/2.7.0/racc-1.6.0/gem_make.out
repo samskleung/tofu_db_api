@@ -1,0 +1,17 @@
+current directory: /Users/samleung/dev-folder/tofu_db_api/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+/Users/samleung/.rbenv/versions/2.7.6/bin/ruby -I /Users/samleung/.rbenv/versions/2.7.6/lib/ruby/2.7.0 -r ./siteconf20220526-34649-1eo3e8n.rb extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/samleung/dev-folder/tofu_db_api/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /Users/samleung/dev-folder/tofu_db_api/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/samleung/dev-folder/tofu_db_api/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20220526-34649-1h6jkrw/racc

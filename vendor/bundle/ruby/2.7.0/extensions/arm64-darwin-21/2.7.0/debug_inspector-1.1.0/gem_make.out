@@ -1,0 +1,15 @@
+current directory: /Users/samleung/dev-folder/tofu_db_api/vendor/bundle/ruby/2.7.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+/Users/samleung/.rbenv/versions/2.7.6/bin/ruby -I /Users/samleung/.rbenv/versions/2.7.6/lib/ruby/2.7.0 -r ./siteconf20220526-34649-54ohxb.rb extconf.rb
+creating Makefile
+
+current directory: /Users/samleung/dev-folder/tofu_db_api/vendor/bundle/ruby/2.7.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/samleung/dev-folder/tofu_db_api/vendor/bundle/ruby/2.7.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/samleung/dev-folder/tofu_db_api/vendor/bundle/ruby/2.7.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20220526-34649-122f8b
