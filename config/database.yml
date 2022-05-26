@@ -7,6 +7,8 @@ development:
   <<: *default
   adapter: postgresql
   database: tofu_db_api_development
+  pool: 5
+  timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -15,8 +17,12 @@ test:
   <<: *default
   adapter: postgresql
   database: tofu_db_api_test
+  pool: 5
+  timeout: 5000
 
 production:
   <<: *default
   adapter: postgresql
   database: tofu_db_api_production
+  pool: 5
+  timeout: 5000
