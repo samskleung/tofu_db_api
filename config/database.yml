@@ -5,15 +5,18 @@ default: &default
 
 development:
   <<: *default
-  database: app_name_development
+  adapter: postgresql
+  database: tofu_db_api_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: app_name_test
+  adapter: postgresql
+  database: tofu_db_api_test
 
 production:
   <<: *default
-  database: app_name_production
+  adapter: postgresql
+  database: tofu_db_api_production
